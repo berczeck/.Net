@@ -39,7 +39,7 @@ namespace DemoRefactoring
         /*
             Analysis method LogMesage
             Cyclomatic Complexity: 35, it's too high an acceptable value is 10.
-            It,s necesary wite 35 unit tests to code coverage this methdo
+            It's necesary write 35 unit tests to code coverage this methdo
             Class Couppling: 8, 
             Lines of code (loc): 41, it's recommended less than 30 loc
         */
