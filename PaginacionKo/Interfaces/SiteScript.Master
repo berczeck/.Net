@@ -1,0 +1,143 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteScript.master.cs" Inherits="WebApplicationIntegrada.Interfaces.SiteScript" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../Publico/Pubico.css" rel="stylesheet" />
+    <style type="text/css">
+        #paramNroFilas {
+            width: 45px;
+        }
+
+        #paginaActual {
+            width: 43px;
+        }
+
+        #numeroPaginas {
+            width: 30px;
+        }
+    </style>
+    <script src="../Publico/knockout-2.2.1.js"> </script>
+    <script src="../Publico/jquery-1.10.2.min.js"> </script>
+    <script src="../Publico/ModeloBandeja.js"> </script>
+    <a href="SiteScript.Master">SiteScript.Master</a>
+    <script src="../Publico/jquery.jconfirm-1.0.min.js"> </script>
+    <script>
+        $(function () {
+            var checkCab = $(".tmc").find("[type='checkbox']:first");
+            checkCab.click(
+                function () {
+                    $(".tmc").find("[type='checkbox']:gt(0)").each(
+                        function () {
+                            $(this)[0].checked = checkCab[0].checked;
+                        });
+
+                    if (checkCab[0].checked) {
+                        $(".tmc tr").addClass("seleccionado");
+                    } else {
+                        $(".tmc tr").removeClass("seleccionado");
+                    }
+                });
+        });
+    </script>
+</head>
+<body>
+
+    <form id="form2" runat="server">
+        <asp:ScriptManager ID="scrManager" runat="server">
+        </asp:ScriptManager>
+        <asp:HiddenField runat="server" ID="hfIdentificadores" />
+        <div id="divGrilla">
+            <asp:UpdatePanel ID="upnlFiltro" runat="server">
+                <ContentTemplate>
+                    <!--PlaceHolder-->
+                    <asp:ContentPlaceHolder ID="cphFiltro" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <!--PlaceHolder-->
+                    <asp:Button ID="btnLeerData" runat="server" Text="Recuperar Valor:" OnClick="btnLeerData_Click" />
+                    <asp:Label ID="lblValor" runat="server" Text=""></asp:Label>
+                </ContentTemplate>
+            </asp:UpdatePanel>
+
+            <asp:Button ID="btnPrueba" runat="server" Text="PostBack" OnClick="btnPrueba_Click" />
+
+            <table>
+                <tr>
+                    <td>
+                        <button data-bind="click: buscar">
+                            Buscar producto</button>
+                    </td>
+                    <td>
+                        <button data-bind="click: limpiar">
+                            Limpiar
+                        </button>
+                    </td>
+                    <td>
+                        <button data-bind="click: eliminar">
+                            Eliminar producto
+                        </button>
+                    </td>
+                </tr>
+            </table>
+
+            <div data-bind="visible: visibleGrilla">
+                <div>
+                    <!--PlaceHolder-->
+                    <table class="tmc">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <input type="checkbox" id="chkPadre" data-bind="click: chkPadreCheck" /></th>
+                                <asp:ContentPlaceHolder ID="cphResultadoCabecera" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </tr>
+                        </thead>
+                        <tbody data-bind="foreach: { data: resultado, afterRender: chkPadre }">
+                            <tr>
+                                <%--data-bind="event: { mouseover: burbujaIn, mouseout: burbujaOut }">--%>
+                                <td>
+                                    <input type="checkbox" data-bind="click: $parent.selectRow" id="chkHijo" />
+                                </td>
+                                <asp:ContentPlaceHolder ID="cphResultadoColumnas" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!--PlaceHolder-->
+                </div>
+                <div>
+                    Filas:
+                        <input id="paramNroFilas" data-bind="value: totalFilas" />
+                    Numero de Paginas:
+                        <input id="numeroPaginas" data-bind="value: numeroPaginas" />
+                    <select id="selectPagina" data-bind="options: tamanioPagina, event: { change: buscar }"></select>
+                    <table>
+                        <tr>
+                            <td>
+                                <button data-bind="click: buscar, enable: habilitadoAnterior"><<</button></td>
+                            <td>
+                                <button data-bind="click: anterior, enable: habilitadoAnterior"><</button></td>
+                            <td>
+                                <input data-bind="value: paginaActual" />
+                            </td>
+                            <td>
+                                <button data-bind="click: siguiente, enable: habilitadoSiguiente">></button></td>
+                            <td>
+                                <button data-bind="click: ultima, enable: habilitadoSiguiente">>></button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="burbuja">
+        </div>
+        <!--PlaceHolder-->
+        <asp:ContentPlaceHolder ID="cphScript" runat="server">
+        </asp:ContentPlaceHolder>
+        <!--PlaceHolder-->
+
+    </form>
+</body>
+</html>

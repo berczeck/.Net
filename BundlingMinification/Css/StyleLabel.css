@@ -1,0 +1,13 @@
+﻿/*
+    Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, 
+    pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, 
+    o palabras aleatorias que no parecen ni un poco creíbles.
+    
+    */
+.texto {
+    text-transform: uppercase;
+
+    text-decoration: underline;
+
+    color: #a52a2a;
+}

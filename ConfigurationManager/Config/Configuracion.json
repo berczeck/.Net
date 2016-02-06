@@ -1,0 +1,7 @@
+﻿{
+    "Nombre": "Prueba",
+    "Mensaje": "Mensaejito",
+    "Valores": [ 1, 2, 3, 4, 5, 6 ],
+    "Llaves": { "CodigoPrepago": "00001", "CodigoPostpago": "00002","CodigoControl": "00003" },
+    "Datos": { "Id": "0", "Codigo": "05487" }
+}

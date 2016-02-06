@@ -1,0 +1,7 @@
+﻿{
+    "Nombre": "PruebaDev",
+    "Mensaje": "MensaejitoDev",
+    "Valores": [ 1, 2 ],
+    "Llaves": { "CodigoPrepago": "00001", "CodigoPostpago": "00002","CodigoControl": "00003" },
+    "Datos": { "Id": "0", "Codigo": "05487Dev" }
+}

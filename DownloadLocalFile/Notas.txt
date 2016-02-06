@@ -1,0 +1,10 @@
+﻿Para Chrome:
+https://chrome.google.com/webstore/detail/locallinks/jllpkdkcdjndhggodimiphkghogcpida/details
+
+Para Firefox:
+https://addons.mozilla.org/es/firefox/addon/locallink/
+
+NO soporta rutas UNC(//192.168.2.1) solo locales(c:/)
+
+Fuente:
+http://stackoverflow.com/questions/2087894/can-google-chrome-open-local-links

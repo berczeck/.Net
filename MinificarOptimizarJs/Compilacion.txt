@@ -1,0 +1,13 @@
+﻿Post Build Event
+cd "$(ProjectDir)\Public"
+call "grunt -v"
+
+npm install grunt
+--npm install grunt-cli
+npm install grunt-contrib-uglify
+npm install grunt-contrib-cssmin
+
+grunt -v
+
+
+$(ProjectDir)runGrunt.bat "$(ProjectDir)"

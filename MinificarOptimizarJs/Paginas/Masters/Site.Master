@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MinificarOptimizarJs.Paginas.Masters.Site" %>
+
+<%@ Import Namespace="MinificarOptimizarJs" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+    <% if (Configuracion.EntornoEjecucion == EntornoEjecucion.Desarrollo)
+       { %>
+    <link rel="stylesheet" href="~/Public/css/normalize.css" />
+    <link rel="stylesheet" href="~/Public/css/site.css" />
+    <link rel="stylesheet" href="~/Public/css/nuevo.css" />
+
+    <script src="/Public/js/vendor/jquery-2.0.3.js"></script>
+    <script src="/Public/js/vendor/underscore.js"></script>
+    <script src="/Public/js/vendor/knockout-3.0.0.debug.js"></script>
+    <script src="/Public/js/vendor/modernizr-2.7.1.js"></script>
+
+    <script src="/Public/js/init.js"></script>
+    <script src="/Public/js/main.js"></script>
+    <% } %>
+    <% else
+       { %>
+    <link rel="stylesheet" href="~/Public/site.min.css" />
+    <% } %>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <% if (Configuracion.EntornoEjecucion != EntornoEjecucion.Desarrollo)
+       { %>
+    <script src="/Public/js/vendor/jquery-2.0.3.min.js"></script>
+    <script src="/Public/vendors.min.js"></script>
+
+    <script src="/Public/app.min.js"></script>
+    <% } %>
+</body>
+</html>

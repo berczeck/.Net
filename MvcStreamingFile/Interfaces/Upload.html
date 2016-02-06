@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+        
+    </head>
+    <body>
+        <form action="/webapi/uploading" method="post" enctype="multipart/form-data">
+            <label for="somefile">File</label>
+            <input name="somefile" type="file" />
+            <input type="submit" value="Submit" />
+            <input type="hidden" name="hidProjectId" value="P0001" />
+            <input type="submit" id="btnAjaxUploader" value="por ajax" />
+            
+            <script src="../Publico/ScriptUpload.js"> </script>
+            <script src="../Publico/jquery-1.10.1.min.js"></script>
+            <script type="text/javascript">
+                $(function() {
+                    $("#btnAjaxUploader").click(sendFile);
+                });
+            </script>
+        </form>
+    </body>
+</html>

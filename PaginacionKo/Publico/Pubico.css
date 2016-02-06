@@ -1,0 +1,53 @@
+﻿body { }
+
+/*Grilla*/
+
+.tmc {
+    /*border: 2px solid black;*/
+    /*border-radius:15px 15px 15px 15px;
+    -ms-border-radius: 10px;*/
+    width: 600px;
+}
+
+.tmc th {
+    background-color: black;
+    color: white;
+}
+
+.tmc tr td:first-child { text-align: center; }
+
+.tmc tr:first-child th:first-child {
+    -ms-border-radius: 10px;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.tmc tr:first-child th:last-child { border-radius: 0px 10px 0px 0px; }
+
+.tmc tr:last-child td:first-child { border-radius: 0px 0px 0px 10px; }
+
+.tmc tr:last-child td:last-child { border-radius: 0px 0px 10px 0px; }
+
+.tmc tr:nth-child(2n + 1) { background-color: gray; }
+
+.tmc tr:nth-child(2n) { background-color: lightgray; }
+
+.tmc tr:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+.tmc tr.seleccionado { background-color: violet; }
+
+/*Mensaje flotante*/
+
+.burbuja {
+    background: #ccc;
+    border-radius: 10px;
+    font: normal 10px verdana;
+    font-family: Verdana;
+    padding: 15px;
+    width: 200px;
+    /*position:absolute;
+    top:15px;
+    left:50px;*/
+}

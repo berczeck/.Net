@@ -1,0 +1,9 @@
+﻿https://github.com/nlog/NLog/wiki/Event-Context-Layout-Renderer
+http://blog.tonysneed.com/2011/10/31/more-nlog-goodness/
+https://github.com/nlog/NLog/wiki/PerfCounter-target
+http://nlog-project.org/2010/09/25/deploying-nlog-configuration.html
+https://github.com/nlog/NLog/wiki/Layout-renderers
+https://github.com/NLog/NLog/tree/master/examples
+
+https://github.com/nlog/NLog/wiki/Tools
+http://www.legitlog.com/Documentation/LogViewerHelp

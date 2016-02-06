@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code2Read.WebCI", "Code2Read.WebCI\Code2Read.WebCI.csproj", "{2A05FC50-53A5-4DFC-9D0F-8D80BB21676A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code2Read.WebCI.Tests", "Code2Read.WebCI.Tests\Code2Read.WebCI.Tests.csproj", "{52BB9AE1-CA6E-4CE5-8E16-C1C3CF8654C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0857902B-7AB8-4FCE-A6EE-A5787611B585}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://alexaldazabal.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Code2Read.WebCI.Tests\\Code2Read.WebCI.Tests.csproj
+		SccProjectName1 = Code2Read.WebCI.Tests
+		SccLocalPath1 = Code2Read.WebCI.Tests
+		SccProjectUniqueName2 = Code2Read.WebCI\\Code2Read.WebCI.csproj
+		SccProjectName2 = Code2Read.WebCI
+		SccLocalPath2 = Code2Read.WebCI
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A05FC50-53A5-4DFC-9D0F-8D80BB21676A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A05FC50-53A5-4DFC-9D0F-8D80BB21676A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A05FC50-53A5-4DFC-9D0F-8D80BB21676A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A05FC50-53A5-4DFC-9D0F-8D80BB21676A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52BB9AE1-CA6E-4CE5-8E16-C1C3CF8654C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BB9AE1-CA6E-4CE5-8E16-C1C3CF8654C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BB9AE1-CA6E-4CE5-8E16-C1C3CF8654C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BB9AE1-CA6E-4CE5-8E16-C1C3CF8654C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

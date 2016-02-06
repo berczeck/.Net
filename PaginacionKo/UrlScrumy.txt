@@ -1,0 +1,3 @@
+﻿URL: http://scrumy.com/kopaginacion
+
+http://developer.yahoo.com/social/rest_api_guide/http-response-codes.html
