@@ -1,0 +1,19 @@
+﻿
+create database DemoRefactoring;
+go
+
+use DemoRefactoring;
+go
+
+Create table LogMessage(textLog varchar(max), typeLog tinyint)
+go
+
+
+Create procedure usp_add_log
+@textLog varchar(max), @typeLog tinyint
+AS
+set nocount on;
+INSERT INTO LogMessage VALUES(@textLog,@typeLog);
+set nocount off;
+
+go
