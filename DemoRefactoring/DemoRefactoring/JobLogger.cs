@@ -91,7 +91,7 @@ namespace DemoRefactoring
             // INFO: Do not open the connection too early
             connection.Open();
 
-            // TODO: Rename tha variable, what does it mean? what is its purpose?
+            // TODO: Rename this variable, what does it mean? what is its purpose?
             int t = 0;
             
             // TODO: Validation duplicate
@@ -116,7 +116,7 @@ namespace DemoRefactoring
 
             //TODO: Close the connection
 
-            // TODO: Rename tha variable, what does it mean? what is its purpose?
+            // TODO: Rename this variable, what does it mean? what is its purpose?
             string l = string.Empty;
             
             // TODO: Set the path file in a variable, Code duplicated
