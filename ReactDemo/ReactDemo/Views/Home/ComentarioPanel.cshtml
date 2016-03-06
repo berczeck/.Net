@@ -1,0 +1,24 @@
+﻿@model IEnumerable<ReactDemo.Models.CommentModel>
+@{
+    Layout = null;
+}
+<html>
+<head>
+    <title>Hello React</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css">
+</head>
+<body>
+    <div id="content">
+    </div>
+    <script src="~/scripts/jquery-1.9.1.min.js"></script>
+    <script src="~/scripts/jquery.signalR-2.2.0.min.js"></script>
+    <script src="~/signalr/hubs"></script>
+    <script src="https://fb.me/react-0.14.0.min.js"></script>
+    <script src="https://fb.me/react-dom-0.14.0.min.js"></script>
+    <script src="~/Scripts/Prueba.jsx"></script>
+    @Html.ReactInitJavaScript()
+
+
+</body>
+</html>
