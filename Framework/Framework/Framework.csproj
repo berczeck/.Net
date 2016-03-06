@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{514927B0-E12E-4121-9E6D-2AABA9FA1240}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Framework</RootNamespace>
+    <AssemblyName>Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>snkFramework.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CuttingEdge.Conditions, Version=1.2.0.11174, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\CuttingEdge.Conditions.1.2.0.0\lib\NET35\CuttingEdge.Conditions.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=3.1.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NLog.3.1.0.0\lib\net40\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Caching\CacheServiceLocator.cs" />
+    <Compile Include="Caching\CustomCacheManager.cs" />
+    <Compile Include="Caching\ICacheProvider.cs" />
+    <Compile Include="Caching\MemoryCacheProvider.cs" />
+    <Compile Include="Comun\HelperConfig.cs" />
+    <Compile Include="Encriptacion\AesEncriptionProvider.cs" />
+    <Compile Include="Encriptacion\EncriptionProvider.cs" />
+    <Compile Include="Encriptacion\EncriptionService.cs" />
+    <Compile Include="Encriptacion\IEncriptionProvider.cs" />
+    <Compile Include="Encriptacion\TripleDesEncriptionProvider.cs" />
+    <Compile Include="Error\ErrorManager.cs" />
+    <Compile Include="Error\ExcepcionActualizarRegistro.cs" />
+    <Compile Include="Error\ExcepcionEliminarRegistro.cs" />
+    <Compile Include="Error\ExcepcionReglaNegocio.cs" />
+    <Compile Include="Error\ExcepcionSeguridad.cs" />
+    <Compile Include="Error\ExcepcionServicio.cs" />
+    <Compile Include="Error\ExcepcionValidacion.cs" />
+    <Compile Include="Error\ExceptionHandler.cs" />
+    <Compile Include="Error\GetSqlErrorInformation.cs" />
+    <Compile Include="Error\GetUnknowErrorInformation.cs" />
+    <Compile Include="Error\IGetErrorInformation.cs" />
+    <Compile Include="Error\MessageFormat.cs" />
+    <Compile Include="Error\TryCatch.cs" />
+    <Compile Include="Error\TryFactory.cs" />
+    <Compile Include="Logging\CustomLogManager.cs" />
+    <Compile Include="Logging\ILogger.cs" />
+    <Compile Include="Logging\InformacionLog.cs" />
+    <Compile Include="Logging\INotificacionLog.cs" />
+    <Compile Include="Logging\LogServiceLocator.cs" />
+    <Compile Include="Logging\LogNet.cs" />
+    <Compile Include="Logging\NivelLog.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validacion\Condicion.cs" />
+    <Compile Include="Validacion\IValidador.cs" />
+    <Compile Include="Validacion\PatronValidacion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PatronValidacion.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Validacion\ValidadorCondicion.cs" />
+    <Compile Include="Validacion\ValidadorEntidad.cs" />
+    <Compile Include="Validacion\ValidadorExpresion.cs" />
+    <Compile Include="Validacion\ValidadorReglaNegocio.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Error\ClassDiagramError.cd" />
+    <None Include="Logging\ClassDiagramLogging.cd" />
+    <None Include="packages.config" />
+    <None Include="snkFramework.snk" />
+    <None Include="snkIgFramework.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Validacion\PatronValidacion.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>PatronValidacion.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

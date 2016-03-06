@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Framework.Wcf.Error" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Framework.Wcf.Error" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ErrorServicioRespuesta">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Codigo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Fecha" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Mensaje" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tipo" type="tns:TipoErrorServicio" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ErrorServicioRespuesta" nillable="true" type="tns:ErrorServicioRespuesta" />
+  <xs:simpleType name="TipoErrorServicio">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ErrorNoManejado" />
+      <xs:enumeration value="ErrorBaseDatos" />
+      <xs:enumeration value="ErrorActualizacionBaseDatos" />
+      <xs:enumeration value="ErrorEliminacionBaseDatos" />
+      <xs:enumeration value="ErrorTiempoConexion" />
+      <xs:enumeration value="ErrorNegocio" />
+      <xs:enumeration value="ErrorComunicacion" />
+      <xs:enumeration value="ErrorValidacion" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="TipoErrorServicio" nillable="true" type="tns:TipoErrorServicio" />
+</xs:schema>

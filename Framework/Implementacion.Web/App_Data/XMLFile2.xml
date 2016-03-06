@@ -1,0 +1,235 @@
+﻿<xml version>
+  <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"   xmlns:o="urn:schemas-microsoft-com:office:office"   xmlns:x="urn:schemas-microsoft-com:office:excel"   xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+    <Styles>
+      <Style ss:ID="Default" ss:Name="Normal">
+        <Alignment ss:Vertical="Bottom"/>
+        <Borders/>
+        <Font/>
+        <Interior/>
+        <NumberFormat/>
+        <Protection/>
+      </Style>
+      <Style ss:ID="BoldColumn">
+        <Font x:Family="Swiss" ss:Size="11"  ss:Bold="1"/>
+      </Style>
+      <Style ss:ID="s00">
+        <NumberFormat ss:Format="@"/>
+      </Style>
+      <Style ss:ID="s10">
+        <NumberFormat ss:Format="@"/>
+      </Style>
+      <Style ss:ID="s20">
+        <NumberFormat ss:Format="@"/>
+      </Style>
+      <Style ss:ID="s30">
+        <NumberFormat ss:Format="@"/>
+      </Style>
+      <Style ss:ID="s40">
+        <NumberFormat ss:Format="@"/>
+      </Style>
+      <Style ss:ID="s50">
+        <NumberFormat ss:Format="0"/>
+      </Style>
+      <Style ss:ID="s60">
+        <NumberFormat ss:Format="@"/>
+      </Style>
+      <Style ss:ID="s70">
+        <NumberFormat ss:Format="@"/>
+      </Style>
+    </Styles>
+    <Worksheet ss:Name="Test1">
+      <Table>
+        <Column ss:AutoFitWidth="0"  ss:Width="100"/>
+        <Column ss:AutoFitWidth="0"  ss:Width="100"/>
+        <Column ss:AutoFitWidth="0"  ss:Width="100"/>
+        <Column ss:AutoFitWidth="0"  ss:Width="100"/>
+        <Column ss:AutoFitWidth="0"  ss:Width="100"/>
+        <Column ss:AutoFitWidth="0"  ss:Width="100"/>
+        <Column ss:AutoFitWidth="0"  ss:Width="100"/>
+        <Column ss:AutoFitWidth="0"  ss:Width="100"/>
+        <Row>
+          <Cell ss:StyleID="BoldColumn">
+            <Data ss:Type="String">Numero de Reclamo</Data>
+          </Cell>
+          <Cell ss:StyleID="BoldColumn">
+            <Data ss:Type="String">Fecha de Registro</Data>
+          </Cell>
+          <Cell ss:StyleID="BoldColumn">
+            <Data ss:Type="String">ProductoServicio o Procedimiento</Data>
+          </Cell>
+          <Cell ss:StyleID="BoldColumn">
+            <Data ss:Type="String">Motivo</Data>
+          </Cell>
+          <Cell ss:StyleID="BoldColumn">
+            <Data ss:Type="String">Asignado A</Data>
+          </Cell>
+          <Cell ss:StyleID="BoldColumn">
+            <Data ss:Type="String">Dias en Proceso</Data>
+          </Cell>
+          <Cell ss:StyleID="BoldColumn">
+            <Data ss:Type="String">Fecha Maxima de Resolucion</Data>
+          </Cell>
+          <Cell ss:StyleID="BoldColumn">
+            <Data ss:Type="String">Estado</Data>
+          </Cell>
+        </Row>
+        <Row>
+          <Cell ss:StyleID="s00">
+            <Data ss:Type="String">Hola</Data>
+          </Cell>
+          <Cell ss:StyleID="s10">
+            <Data ss:Type="String">06-04-2025</Data>
+          </Cell>
+          <Cell ss:StyleID="s20">
+            <Data ss:Type="String">Hola</Data>
+          </Cell>
+          <Cell ss:StyleID="s30">
+            <Data ss:Type="String"></Data>
+          </Cell>
+          <Cell ss:StyleID="s40">
+            <Data ss:Type="String">Diana Lopera</Data>
+          </Cell>
+          <Cell ss:StyleID="s50">
+            <Data ss:Type="Number">-3855</Data>
+          </Cell>
+          <Cell ss:StyleID="s60">
+            <Data ss:Type="String">05-06-2025</Data>
+          </Cell>
+          <Cell ss:StyleID="s70">
+            <Data ss:Type="String">Resoluci&oacute;n rechazada o desaprobada</Data>
+          </Cell>
+        </Row>
+        <Row>
+          <Cell ss:StyleID="s00">
+            <Data ss:Type="String">iG</Data>
+          </Cell>
+          <Cell ss:StyleID="s10">
+            <Data ss:Type="String">02-12-2642</Data>
+          </Cell>
+          <Cell ss:StyleID="s20">
+            <Data ss:Type="String">Hola</Data>
+          </Cell>
+          <Cell ss:StyleID="s30">
+            <Data ss:Type="String"></Data>
+          </Cell>
+          <Cell ss:StyleID="s40">
+            <Data ss:Type="String">Diana Lopera</Data>
+          </Cell>
+          <Cell ss:StyleID="s50">
+            <Data ss:Type="Number">-229449</Data>
+          </Cell>
+          <Cell ss:StyleID="s60">
+            <Data ss:Type="String">31-01-2643</Data>
+          </Cell>
+          <Cell ss:StyleID="s70">
+            <Data ss:Type="String">Pendiente de Resoluci&oacute;n</Data>
+          </Cell>
+        </Row>
+        <Row>
+          <Cell ss:StyleID="s00">
+            <Data ss:Type="String">Hola</Data>
+          </Cell>
+          <Cell ss:StyleID="s10">
+            <Data ss:Type="String">09-09-3319</Data>
+          </Cell>
+          <Cell ss:StyleID="s20">
+            <Data ss:Type="String">rIq3yMr</Data>
+          </Cell>
+          <Cell ss:StyleID="s30">
+            <Data ss:Type="String"></Data>
+          </Cell>
+          <Cell ss:StyleID="s40">
+            <Data ss:Type="String">Diana Lopera</Data>
+          </Cell>
+          <Cell ss:StyleID="s50">
+            <Data ss:Type="Number">-476634</Data>
+          </Cell>
+          <Cell ss:StyleID="s60">
+            <Data ss:Type="String">08-11-3319</Data>
+          </Cell>
+          <Cell ss:StyleID="s70">
+            <Data ss:Type="String">Pendiente de Resoluci&oacute;n</Data>
+          </Cell>
+        </Row>
+        <Row>
+          <Cell ss:StyleID="s00">
+            <Data ss:Type="String">Hola</Data>
+          </Cell>
+          <Cell ss:StyleID="s10">
+            <Data ss:Type="String">27-08-3921</Data>
+          </Cell>
+          <Cell ss:StyleID="s20">
+            <Data ss:Type="String">Pensi&oacute;n de Sobrevivientes – Viudez</Data>
+          </Cell>
+          <Cell ss:StyleID="s30">
+            <Data ss:Type="String">Hola</Data>
+          </Cell>
+          <Cell ss:StyleID="s40">
+            <Data ss:Type="String">Diana Lopera</Data>
+          </Cell>
+          <Cell ss:StyleID="s50">
+            <Data ss:Type="Number">-696498</Data>
+          </Cell>
+          <Cell ss:StyleID="s60">
+            <Data ss:Type="String">26-10-3921</Data>
+          </Cell>
+          <Cell ss:StyleID="s70">
+            <Data ss:Type="String">Pendiente de Resoluci&oacute;n</Data>
+          </Cell>
+        </Row>
+        <Row>
+          <Cell ss:StyleID="s00">
+            <Data ss:Type="String">Hola</Data>
+          </Cell>
+          <Cell ss:StyleID="s10">
+            <Data ss:Type="String">03-05-8180</Data>
+          </Cell>
+          <Cell ss:StyleID="s20">
+            <Data ss:Type="String">Hola</Data>
+          </Cell>
+          <Cell ss:StyleID="s30">
+            <Data ss:Type="String"></Data>
+          </Cell>
+          <Cell ss:StyleID="s40">
+            <Data ss:Type="String">Diana Lopera</Data>
+          </Cell>
+          <Cell ss:StyleID="s50">
+            <Data ss:Type="Number">-2251950</Data>
+          </Cell>
+          <Cell ss:StyleID="s60">
+            <Data ss:Type="String">02-07-8180</Data>
+          </Cell>
+          <Cell ss:StyleID="s70">
+            <Data ss:Type="String">Pendiente de Resoluci&oacute;n</Data>
+          </Cell>
+        </Row>
+        <Row>
+          <Cell ss:StyleID="s00">
+            <Data ss:Type="String">Hola</Data>
+          </Cell>
+          <Cell ss:StyleID="s10">
+            <Data ss:Type="String">25-03-9405</Data>
+          </Cell>
+          <Cell ss:StyleID="s20">
+            <Data ss:Type="String">Hola</Data>
+          </Cell>
+          <Cell ss:StyleID="s30">
+            <Data ss:Type="String"></Data>
+          </Cell>
+          <Cell ss:StyleID="s40">
+            <Data ss:Type="String">Diana Lopera</Data>
+          </Cell>
+          <Cell ss:StyleID="s50">
+            <Data ss:Type="Number">-2699333</Data>
+          </Cell>
+          <Cell ss:StyleID="s60">
+            <Data ss:Type="String">24-05-9405</Data>
+          </Cell>
+          <Cell ss:StyleID="s70">
+            <Data ss:Type="String">Pendiente de Resoluci&oacute;n</Data>
+          </Cell>
+        </Row>
+      </Table>
+    </Worksheet>
+  </Workbook>
+</xml>

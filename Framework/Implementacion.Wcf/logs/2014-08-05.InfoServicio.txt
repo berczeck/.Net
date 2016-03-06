@@ -1,0 +1,4 @@
+ExcepcionValidacion|9166201a-4797-41d7-82c5-cae5f8570c28|6072|iisexpress|INTERGRUPO\Laldazabal|2014-08-05 08:45:25.6661|Ig.Framework.dll|Ig.Framework.Logging.CustomLogManager.RegistrarInformacion||Regla de Validaciòn : value should be greater than 10000
+
+ExcepcionReglaNegocio|444dda6d-f7fc-4a6d-a154-c7440406dd95|6072|iisexpress|INTERGRUPO\Laldazabal|2014-08-05 08:45:57.7443|Ig.Framework.dll|Ig.Framework.Logging.CustomLogManager.RegistrarInformacion||Regla de negocio : value should be greater than 100000
+

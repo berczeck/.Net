@@ -1,0 +1,270 @@
+[Datos Generales]
+ Fecha y Hora = 2014-08-04 18:24:46.3633
+ Título = Error no controlado en el servicio.
+
+ [ProcessInformation]
+ ProcessId = 9136
+ ProcessName = iisexpress
+ ProcessAccountName = INTERGRUPO\Laldazabal
+ ThreadId = 18
+ ThreadAccountName = 
+
+ [Exception]
+ Exception.Type="Exception"
+Exception.Message="Error de ejemplo"
+Exception.StackTrace="   en Ig.Implementacion.Wcf.Servicio.GetDataUsingDataContract(CompositeType composite) en d:\Laldazabal\Proyectos\Prueba\Ig.Framework\Ig.Implementacion.Wcf\Service1.svc.cs:línea 25
+   en SyncInvokeGetDataUsingDataContract(Object , Object[] , Object[] )
+   en System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   en System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)"
+
+ -------------------------------------------------------------------------------------------------------
+
+[Datos Generales]
+ Fecha y Hora = 2014-08-04 18:40:34.9406
+ Título = Error no controlado en el servicio.
+
+ [ProcessInformation]
+ ProcessId = 9908
+ ProcessName = iisexpress
+ ProcessAccountName = INTERGRUPO\Laldazabal
+ ThreadId = 1
+ ThreadAccountName = 
+
+ [Exception]
+ Exception.Type="Exception"
+Exception.Message="Error de ejemplo"
+Exception.StackTrace="   en Ig.Implementacion.Wcf.Servicio.GetDataUsingDataContract(CompositeType composite) en d:\Laldazabal\Proyectos\Prueba\Ig.Framework\Ig.Implementacion.Wcf\Service1.svc.cs:línea 25
+   en SyncInvokeGetDataUsingDataContract(Object , Object[] , Object[] )
+   en System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   en System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)"
+
+ -------------------------------------------------------------------------------------------------------
+
+[Datos Generales]
+ Fecha y Hora = 2014-08-04 18:41:19.5118
+ Título = Error no controlado en el servicio.
+
+ [ProcessInformation]
+ ProcessId = 10964
+ ProcessName = iisexpress
+ ProcessAccountName = INTERGRUPO\Laldazabal
+ ThreadId = 1
+ ThreadAccountName = 
+
+ [Exception]
+ Exception.Type="Exception"
+Exception.Message="Error de ejemplo"
+Exception.StackTrace="   en Ig.Implementacion.Wcf.Servicio.GetDataUsingDataContract(CompositeType composite) en d:\Laldazabal\Proyectos\Prueba\Ig.Framework\Ig.Implementacion.Wcf\Service1.svc.cs:línea 25
+   en SyncInvokeGetDataUsingDataContract(Object , Object[] , Object[] )
+   en System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   en System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)"
+
+ -------------------------------------------------------------------------------------------------------
+
+[Datos Generales]
+ Fecha y Hora = 2014-08-04 18:45:25.9131
+ Título = Error no controlado en el servicio.
+
+ [ProcessInformation]
+ ProcessId = 10964
+ ProcessName = iisexpress
+ ProcessAccountName = INTERGRUPO\Laldazabal
+ ThreadId = 25
+ ThreadAccountName = 
+
+ [Exception]
+ Exception.Type="Exception"
+Exception.Message="Error de ejemplo"
+Exception.StackTrace="   en Ig.Implementacion.Wcf.Servicio.GetDataUsingDataContract(CompositeType composite) en d:\Laldazabal\Proyectos\Prueba\Ig.Framework\Ig.Implementacion.Wcf\Service1.svc.cs:línea 25
+   en SyncInvokeGetDataUsingDataContract(Object , Object[] , Object[] )
+   en System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   en System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)"
+
+ -------------------------------------------------------------------------------------------------------
+
+[Datos Generales]
+ Fecha y Hora = 2014-08-04 18:46:00.3891
+ Título = Error no controlado en el servicio.
+
+ [ProcessInformation]
+ ProcessId = 8588
+ ProcessName = iisexpress
+ ProcessAccountName = INTERGRUPO\Laldazabal
+ ThreadId = 1
+ ThreadAccountName = 
+
+ [Exception]
+ Exception.Type="Exception"
+Exception.Message="Error de ejemplo"
+Exception.StackTrace="   en Ig.Implementacion.Wcf.Servicio.GetDataUsingDataContract(CompositeType composite) en d:\Laldazabal\Proyectos\Prueba\Ig.Framework\Ig.Implementacion.Wcf\Service1.svc.cs:línea 25
+   en SyncInvokeGetDataUsingDataContract(Object , Object[] , Object[] )
+   en System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   en System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)"
+
+ -------------------------------------------------------------------------------------------------------
+
+[Datos Generales]
+ Fecha y Hora = 2014-08-04 18:46:50.0307
+ Título = Error no controlado en el servicio.
+
+ [ProcessInformation]
+ ProcessId = 6736
+ ProcessName = iisexpress
+ ProcessAccountName = INTERGRUPO\Laldazabal
+ ThreadId = 1
+ ThreadAccountName = 
+
+ [Exception]
+ Exception.Type="Exception"
+Exception.Message="Error de ejemplo"
+Exception.StackTrace="   en Ig.Implementacion.Wcf.Servicio.GetDataUsingDataContract(CompositeType composite) en d:\Laldazabal\Proyectos\Prueba\Ig.Framework\Ig.Implementacion.Wcf\Service1.svc.cs:línea 25
+   en SyncInvokeGetDataUsingDataContract(Object , Object[] , Object[] )
+   en System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   en System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)"
+
+ -------------------------------------------------------------------------------------------------------
+
+[Datos Generales]
+ Fecha y Hora = 2014-08-04 18:48:30.8294
+ Título = Error no controlado en el servicio.
+
+ [ProcessInformation]
+ ProcessId = 6176
+ ProcessName = iisexpress
+ ProcessAccountName = INTERGRUPO\Laldazabal
+ ThreadId = 1
+ ThreadAccountName = 
+
+ [Exception]
+ Exception.Type="Exception"
+Exception.Message="Error de ejemplo"
+Exception.StackTrace="   en Ig.Implementacion.Wcf.Servicio.GetDataUsingDataContract(CompositeType composite) en d:\Laldazabal\Proyectos\Prueba\Ig.Framework\Ig.Implementacion.Wcf\Service1.svc.cs:línea 25
+   en SyncInvokeGetDataUsingDataContract(Object , Object[] , Object[] )
+   en System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   en System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)"
+
+ -------------------------------------------------------------------------------------------------------
+
+[Datos Generales]
+ Fecha y Hora = 2014-08-04 18:51:18.4929
+ Título = Error no controlado en el servicio.
+
+ [ProcessInformation]
+ ProcessId = 6500
+ ProcessName = iisexpress
+ ProcessAccountName = INTERGRUPO\Laldazabal
+ ThreadId = 1
+ ThreadAccountName = 
+
+ [Exception]
+ Exception.Type="Exception"
+Exception.Message="Error de ejemplo"
+Exception.StackTrace="   en Ig.Implementacion.Wcf.Servicio.GetDataUsingDataContract(CompositeType composite) en d:\Laldazabal\Proyectos\Prueba\Ig.Framework\Ig.Implementacion.Wcf\Service1.svc.cs:línea 25
+   en SyncInvokeGetDataUsingDataContract(Object , Object[] , Object[] )
+   en System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   en System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)"
+
+ -------------------------------------------------------------------------------------------------------
+
+[Datos Generales]
+ Fecha y Hora = 2014-08-04 18:59:56.5307
+ Título = Error no controlado en el servicio.
+
+ [ProcessInformation]
+ ProcessId = 10836
+ ProcessName = iisexpress
+ ProcessAccountName = INTERGRUPO\Laldazabal
+ ThreadId = 14
+ ThreadAccountName = 
+
+ [Exception]
+ Exception.Type="Exception"
+Exception.Message="Error de ejemplo"
+Exception.StackTrace="   en Ig.Implementacion.Wcf.Servicio.GetDataUsingDataContract(CompositeType composite) en d:\Laldazabal\Proyectos\Prueba\Ig.Framework\Ig.Implementacion.Wcf\Service1.svc.cs:línea 25
+   en SyncInvokeGetDataUsingDataContract(Object , Object[] , Object[] )
+   en System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   en System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   en System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)"
+
+ -------------------------------------------------------------------------------------------------------
+

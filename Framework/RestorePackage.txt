@@ -1,0 +1,2 @@
+Update-Package –reinstall CuttingEdge.Conditions
+Update-Package –reinstall NLog 

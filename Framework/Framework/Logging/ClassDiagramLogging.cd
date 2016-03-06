@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Framework.Logging.CustomLogManager">
+    <Position X="1.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAAAAAAAAIACAAEAAAIAAAIAAAAQAAChAAAAA=</HashCode>
+      <FileName>Logging\CustomLogManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LogBuilder" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Framework.Logging.InformacionLog" Collapsed="true">
+    <Position X="3.25" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAQAAAAAAAAAAABAIAAAAAA=</HashCode>
+      <FileName>Logging\InformacionLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.Logging.LogBuilder">
+    <Position X="1" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logging\LogBuilder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CurrentClassLogger" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Framework.Logging.LogNet">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAIAAAIAAAAAAAAIAAAIAAQAQAACgAAAAQ=</HashCode>
+      <FileName>Logging\LogNet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Framework.Logging.ILogger">
+    <Position X="4.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAIAAAAAAAAAAAAIAAQAQAACgAAAAA=</HashCode>
+      <FileName>Logging\ILogger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Framework.Logging.NivelLog">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAABAgYAAAAAAAAAAAAAAAAAAAAAAAgAEAAA=</HashCode>
+      <FileName>Logging\NivelLog.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

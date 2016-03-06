@@ -1,0 +1,342 @@
+[Datos Generales]
+ Identificador = 70fe95c8-894e-4aab-be61-2c86eee4f9c0
+ Fecha y Hora = 2014-08-04 18:24:46.3484
+ Título = Traza de mensajes de entrada
+ Usuario = 
+ Ip = ::1:54253
+ Accion = http://tempuri.org/IServicio/GetDataUsingDataContract
+ Duracion(seg) = 0
+ Fecha Inicio = 08/04/2014 18:24:46
+ Fecha Fin = 08/04/2014 18:24:46
+
+ [ProcessInformation]
+ ProcessId = 9136
+ ProcessName = iisexpress
+ ProcessAccountName = INTERGRUPO\Laldazabal
+ ThreadId = 18
+ ThreadAccountName = 
+
+ [Request]
+ <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header>
+    <To s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://localhost:57236/Service1.svc</To>
+    <Action s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://tempuri.org/IServicio/GetDataUsingDataContract</Action>
+  </s:Header>
+  <s:Body>
+    <GetDataUsingDataContract xmlns="http://tempuri.org/">
+      <composite xmlns:a="http://schemas.datacontract.org/2004/07/Ig.Implementacion.Wcf" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:BoolValue>false</a:BoolValue>
+        <a:StringValue i:nil="true" />
+      </composite>
+    </GetDataUsingDataContract>
+  </s:Body>
+</s:Envelope>
+
+ [Response]
+ Ocurrió un error en el servicio. Revise el log de errores.
+ -------------------------------------------------------------------------------------------------------
+
+[Datos Generales]
+ Identificador = adedd468-018d-4d94-b356-dc87cd248a5d
+ Fecha y Hora = 2014-08-04 18:40:34.9106
+ Título = Traza de mensajes de entrada
+ Usuario = 
+ Ip = ::1:54353
+ Accion = http://tempuri.org/IServicio/GetDataUsingDataContract
+ Duracion(seg) = 0
+ Fecha Inicio = 08/04/2014 18:40:34
+ Fecha Fin = 08/04/2014 18:40:34
+
+ [ProcessInformation]
+ ProcessId = 9908
+ ProcessName = iisexpress
+ ProcessAccountName = INTERGRUPO\Laldazabal
+ ThreadId = 1
+ ThreadAccountName = 
+
+ [Request]
+ <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header>
+    <To s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://localhost:57236/Service1.svc</To>
+    <Action s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://tempuri.org/IServicio/GetDataUsingDataContract</Action>
+  </s:Header>
+  <s:Body>
+    <GetDataUsingDataContract xmlns="http://tempuri.org/">
+      <composite xmlns:a="http://schemas.datacontract.org/2004/07/Ig.Implementacion.Wcf" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:BoolValue>false</a:BoolValue>
+        <a:StringValue i:nil="true" />
+      </composite>
+    </GetDataUsingDataContract>
+  </s:Body>
+</s:Envelope>
+
+ [Response]
+ Ocurrió un error en el servicio. Revise el log de errores.
+ -------------------------------------------------------------------------------------------------------
+
+[Datos Generales]
+ Identificador = 1c8aee71-1656-411b-ba8b-ffcbf15a902e
+ Fecha y Hora = 2014-08-04 18:41:19.4839
+ Título = Traza de mensajes de entrada
+ Usuario = 
+ Ip = ::1:54365
+ Accion = http://tempuri.org/IServicio/GetDataUsingDataContract
+ Duracion(seg) = 0
+ Fecha Inicio = 08/04/2014 18:41:19
+ Fecha Fin = 08/04/2014 18:41:19
+
+ [ProcessInformation]
+ ProcessId = 10964
+ ProcessName = iisexpress
+ ProcessAccountName = INTERGRUPO\Laldazabal
+ ThreadId = 1
+ ThreadAccountName = 
+
+ [Request]
+ <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header>
+    <To s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://localhost:57236/Service1.svc</To>
+    <Action s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://tempuri.org/IServicio/GetDataUsingDataContract</Action>
+  </s:Header>
+  <s:Body>
+    <GetDataUsingDataContract xmlns="http://tempuri.org/">
+      <composite xmlns:a="http://schemas.datacontract.org/2004/07/Ig.Implementacion.Wcf" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:BoolValue>false</a:BoolValue>
+        <a:StringValue i:nil="true" />
+      </composite>
+    </GetDataUsingDataContract>
+  </s:Body>
+</s:Envelope>
+
+ [Response]
+ Ocurrió un error en el servicio. Revise el log de errores.
+ -------------------------------------------------------------------------------------------------------
+
+[Datos Generales]
+ Identificador = e28a8afc-4a0d-4794-9e68-1dd7a06733c9
+ Fecha y Hora = 2014-08-04 18:45:25.9131
+ Título = Traza de mensajes de entrada
+ Usuario = 
+ Ip = ::1:54383
+ Accion = http://tempuri.org/IServicio/GetDataUsingDataContract
+ Duracion(seg) = 0
+ Fecha Inicio = 08/04/2014 18:45:25
+ Fecha Fin = 08/04/2014 18:45:25
+
+ [ProcessInformation]
+ ProcessId = 10964
+ ProcessName = iisexpress
+ ProcessAccountName = INTERGRUPO\Laldazabal
+ ThreadId = 25
+ ThreadAccountName = 
+
+ [Request]
+ <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header>
+    <To s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://localhost:57236/Service1.svc</To>
+    <Action s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://tempuri.org/IServicio/GetDataUsingDataContract</Action>
+  </s:Header>
+  <s:Body>
+    <GetDataUsingDataContract xmlns="http://tempuri.org/">
+      <composite xmlns:a="http://schemas.datacontract.org/2004/07/Ig.Implementacion.Wcf" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:BoolValue>false</a:BoolValue>
+        <a:StringValue i:nil="true" />
+      </composite>
+    </GetDataUsingDataContract>
+  </s:Body>
+</s:Envelope>
+
+ [Response]
+ Ocurrió un error en el servicio. Revise el log de errores.
+ -------------------------------------------------------------------------------------------------------
+
+[Datos Generales]
+ Identificador = 0127840d-4e81-4a68-b9b7-3ae3463d3c24
+ Fecha y Hora = 2014-08-04 18:46:00.3891
+ Título = Traza de mensajes de entrada
+ Usuario = 
+ Ip = ::1:54392
+ Accion = http://tempuri.org/IServicio/GetDataUsingDataContract
+ Duracion(seg) = 0
+ Fecha Inicio = 08/04/2014 18:46:00
+ Fecha Fin = 08/04/2014 18:46:00
+
+ [ProcessInformation]
+ ProcessId = 8588
+ ProcessName = iisexpress
+ ProcessAccountName = INTERGRUPO\Laldazabal
+ ThreadId = 1
+ ThreadAccountName = 
+
+ [Request]
+ <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header>
+    <To s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://localhost:57236/Service1.svc</To>
+    <Action s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://tempuri.org/IServicio/GetDataUsingDataContract</Action>
+  </s:Header>
+  <s:Body>
+    <GetDataUsingDataContract xmlns="http://tempuri.org/">
+      <composite xmlns:a="http://schemas.datacontract.org/2004/07/Ig.Implementacion.Wcf" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:BoolValue>false</a:BoolValue>
+        <a:StringValue i:nil="true" />
+      </composite>
+    </GetDataUsingDataContract>
+  </s:Body>
+</s:Envelope>
+
+ [Response]
+ Ocurrió un error en el servicio. Revise el log de errores.
+ -------------------------------------------------------------------------------------------------------
+
+[Datos Generales]
+ Identificador = a432a484-b8fd-44c5-9f61-d3c4deb4def0
+ Fecha y Hora = 2014-08-04 18:46:50.0267
+ Título = Traza de mensajes de entrada
+ Usuario = 
+ Ip = ::1:54407
+ Accion = http://tempuri.org/IServicio/GetDataUsingDataContract
+ Duracion(seg) = 0
+ Fecha Inicio = 08/04/2014 18:46:49
+ Fecha Fin = 08/04/2014 18:46:49
+
+ [ProcessInformation]
+ ProcessId = 6736
+ ProcessName = iisexpress
+ ProcessAccountName = INTERGRUPO\Laldazabal
+ ThreadId = 1
+ ThreadAccountName = 
+
+ [Request]
+ <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header>
+    <To s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://localhost:57236/Service1.svc</To>
+    <Action s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://tempuri.org/IServicio/GetDataUsingDataContract</Action>
+  </s:Header>
+  <s:Body>
+    <GetDataUsingDataContract xmlns="http://tempuri.org/">
+      <composite xmlns:a="http://schemas.datacontract.org/2004/07/Ig.Implementacion.Wcf" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:BoolValue>false</a:BoolValue>
+        <a:StringValue i:nil="true" />
+      </composite>
+    </GetDataUsingDataContract>
+  </s:Body>
+</s:Envelope>
+
+ [Response]
+ Ocurrió un error en el servicio. Revise el log de errores.
+ -------------------------------------------------------------------------------------------------------
+
+[Datos Generales]
+ Identificador = 364ee5ee-f20d-43b4-99fe-9f5b6dfa9895
+ Fecha y Hora = 2014-08-04 18:48:30.8005
+ Título = Traza de mensajes de entrada
+ Usuario = 
+ Ip = ::1:54421
+ Accion = http://tempuri.org/IServicio/GetDataUsingDataContract
+ Duracion(seg) = 0
+ Fecha Inicio = 08/04/2014 18:48:30
+ Fecha Fin = 08/04/2014 18:48:30
+
+ [ProcessInformation]
+ ProcessId = 6176
+ ProcessName = iisexpress
+ ProcessAccountName = INTERGRUPO\Laldazabal
+ ThreadId = 1
+ ThreadAccountName = 
+
+ [Request]
+ <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header>
+    <To s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://localhost:57236/Service1.svc</To>
+    <Action s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://tempuri.org/IServicio/GetDataUsingDataContract</Action>
+  </s:Header>
+  <s:Body>
+    <GetDataUsingDataContract xmlns="http://tempuri.org/">
+      <composite xmlns:a="http://schemas.datacontract.org/2004/07/Ig.Implementacion.Wcf" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:BoolValue>false</a:BoolValue>
+        <a:StringValue i:nil="true" />
+      </composite>
+    </GetDataUsingDataContract>
+  </s:Body>
+</s:Envelope>
+
+ [Response]
+ Ocurrió un error en el servicio. Revise el log de errores.
+ -------------------------------------------------------------------------------------------------------
+
+[Datos Generales]
+ Identificador = 577791a0-3b3e-4867-ada9-bfb0308640d2
+ Fecha y Hora = 2014-08-04 18:51:18.4770
+ Título = Traza de mensajes de entrada
+ Usuario = 
+ Ip = ::1:54434
+ Accion = http://tempuri.org/IServicio/GetDataUsingDataContract
+ Duracion(seg) = 0
+ Fecha Inicio = 08/04/2014 18:51:18
+ Fecha Fin = 08/04/2014 18:51:18
+
+ [ProcessInformation]
+ ProcessId = 6500
+ ProcessName = iisexpress
+ ProcessAccountName = INTERGRUPO\Laldazabal
+ ThreadId = 1
+ ThreadAccountName = 
+
+ [Request]
+ <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header>
+    <To s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://localhost:57236/Service1.svc</To>
+    <Action s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://tempuri.org/IServicio/GetDataUsingDataContract</Action>
+  </s:Header>
+  <s:Body>
+    <GetDataUsingDataContract xmlns="http://tempuri.org/">
+      <composite xmlns:a="http://schemas.datacontract.org/2004/07/Ig.Implementacion.Wcf" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:BoolValue>false</a:BoolValue>
+        <a:StringValue i:nil="true" />
+      </composite>
+    </GetDataUsingDataContract>
+  </s:Body>
+</s:Envelope>
+
+ [Response]
+ Ocurrió un error en el servicio. Revise el log de errores.
+ -------------------------------------------------------------------------------------------------------
+
+[Datos Generales]
+ Identificador = 5974b06a-1bbd-4053-8efb-43f9614062ec
+ Fecha y Hora = 2014-08-04 18:59:56.4090
+ Título = Traza de mensajes de entrada
+ Usuario = 
+ Ip = ::1:54599
+ Accion = http://tempuri.org/IServicio/GetDataUsingDataContract
+ Duracion(seg) = 17
+ Fecha Inicio = 08/04/2014 18:59:38
+ Fecha Fin = 08/04/2014 18:59:56
+
+ [ProcessInformation]
+ ProcessId = 10836
+ ProcessName = iisexpress
+ ProcessAccountName = INTERGRUPO\Laldazabal
+ ThreadId = 14
+ ThreadAccountName = 
+
+ [Request]
+ <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header>
+    <To s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://localhost:57236/Service1.svc</To>
+    <Action s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://tempuri.org/IServicio/GetDataUsingDataContract</Action>
+  </s:Header>
+  <s:Body>
+    <GetDataUsingDataContract xmlns="http://tempuri.org/">
+      <composite xmlns:a="http://schemas.datacontract.org/2004/07/Ig.Implementacion.Wcf" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:BoolValue>false</a:BoolValue>
+        <a:StringValue i:nil="true" />
+      </composite>
+    </GetDataUsingDataContract>
+  </s:Body>
+</s:Envelope>
+
+ [Response]
+ Ocurrió un error en el servicio. Revise el log de errores.
+ -------------------------------------------------------------------------------------------------------
+
