@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comentario.Core", "Comentario.Core\Comentario.Core.csproj", "{60894203-9160-4220-B469-989D03F49B54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comentario.Host", "COmentario.Host\Comentario.Host.csproj", "{79D9DCA5-CEBD-4A8B-8131-60AD477C08B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comentario.Web", "Comentario.Web\Comentario.Web.csproj", "{4E472515-1EF8-4CB5-B017-60F7258D3C68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60894203-9160-4220-B469-989D03F49B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60894203-9160-4220-B469-989D03F49B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60894203-9160-4220-B469-989D03F49B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60894203-9160-4220-B469-989D03F49B54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D9DCA5-CEBD-4A8B-8131-60AD477C08B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D9DCA5-CEBD-4A8B-8131-60AD477C08B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D9DCA5-CEBD-4A8B-8131-60AD477C08B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D9DCA5-CEBD-4A8B-8131-60AD477C08B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E472515-1EF8-4CB5-B017-60F7258D3C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E472515-1EF8-4CB5-B017-60F7258D3C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E472515-1EF8-4CB5-B017-60F7258D3C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E472515-1EF8-4CB5-B017-60F7258D3C68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

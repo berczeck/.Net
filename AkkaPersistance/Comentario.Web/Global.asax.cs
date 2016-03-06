@@ -1,0 +1,23 @@
+﻿using System.Web.Mvc;
+using System.Web.Routing;
+using Comentario.Web.Models;
+using MongoDB.Bson.Serialization;
+
+namespace Comentario.Web
+{
+    public class MvcApplication : System.Web.HttpApplication
+    {
+        protected void Application_Start()
+        {
+            AreaRegistration.RegisterAllAreas();
+            RouteConfig.RegisterRoutes(RouteTable.Routes);
+            SistemaPanelComentario.CreaContexto();
+
+        }
+
+        void Application_End()
+        {
+            SistemaPanelComentario.ApagarContexto();
+        }
+    }
+}
