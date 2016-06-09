@@ -20,19 +20,21 @@
 	}
 }
 filter {
+# message es el parametr que contiene todo el contenido
+# en la linea inferior seteamos el valor del LOGLEVEL en la vaiable levelInfo
 	grok {
 		match => ["message" , "(?m)%{LOGLEVEL:levelInfo}"]
 	}
 	if [levelInfo] in ["ERROR" ,"FATAL"]{
 		grok {
-			match => ["message" , "(?m)%{LOGLEVEL:level} %{TIMESTAMP_ISO8601:log_timestamp} \[%{NUMBER:threadId}\] - %{DATA:exception}: %{DATA:error}\n%{GREEDYDATA:stackTrace}"]
+			match => ["message" , "(?m)%{LOGLEVEL:level} %{TIMESTAMP_ISO8601:log_timestamp} \[%{NUMBER:threadId}\] - %{DATA:logger} %{DATA:user} %{DATA:server} %{DATA:source} %{DATA:exception}: %{DATA:error}\n%{GREEDYDATA:stackTrace}"]
 		}
 		mutate {
 			add_field => { "event" => "ERRO-FATAL" }
 		}
 	} else {
 		grok {
-			match => ["message" , "%{LOGLEVEL:level} %{TIMESTAMP_ISO8601:log_timestamp} \[%{NUMBER:threadId}\] - %{GREEDYDATA:info}"]
+			match => ["message" , "%{LOGLEVEL:level} %{TIMESTAMP_ISO8601:log_timestamp} \[%{NUMBER:threadId}\] - %{DATA:logger} %{DATA:user} %{DATA:server} %{DATA:source} %{GREEDYDATA:info}"]
 		}
 		mutate {
 			add_field => { "event" => "INFO-WARN-DEBUG" }
