@@ -1,13 +1,15 @@
 ﻿input {
 	rabbitmq {
-          key => "QueueTest"
-          exchange => "app-test"
-          exchange_type => "direct"
+		  ack => true
+          #key => "QueueTest"
+          #exchange => "app-test"
+          #exchange_type => "direct"
+		  queue => "QueueTest2"
           user => "epiqnotif"
           password => "3p1q11"
           host => "EBBSDVEPIQ11"
           port => 5672
-          durable => true
+          durable => false
 		  prefetch_count => 4
 		  codec => multiline {
 			pattern => "^(DEBUG|WARN|ERROR|INFO|FATAL)"
@@ -26,7 +28,7 @@ filter {
 }
 output {
   elasticsearch {
-    hosts => ["localhost:9200"] 
+    hosts => ["ebbsdvepiq11:9200"] 
   }
   stdout { codec => rubydebug }
 }
