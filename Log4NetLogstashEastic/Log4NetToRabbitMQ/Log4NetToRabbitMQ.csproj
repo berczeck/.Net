@@ -65,6 +65,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="LogstashConfigurationMultiLine - Copy.txt" />
     <Content Include="LogstashConfigurationMultiLine.txt" />
     <Content Include="LogstashConfigurationSingleLine.txt" />
     <Content Include="ReadMe.txt" />
