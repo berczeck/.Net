@@ -1,0 +1,28 @@
+﻿input {
+	rabbitmq {
+          key => "QueueTest"
+          exchange => "app-test"
+          exchange_type => "direct"
+          user => "epiqnotif"
+          password => "3p1q11"
+          host => "EBBSDVEPIQ11"
+          port => 5672
+          durable => true
+		  prefetch_count => 4
+		  codec => line
+		  type => "Log4Net"
+	}
+}
+filter {
+	if [type] == "Log4Net" {
+		grok {
+			match => ["message" , "%{LOGLEVEL:level} %{TIMESTAMP_ISO8601:log_timestamp} \[%{NUMBER:threadId}\] - %{GREEDYDATA:info}"]
+		}
+	}
+}
+output {
+  elasticsearch {
+    hosts => ["localhost:9200"] 
+  }
+  stdout { codec => rubydebug }
+}

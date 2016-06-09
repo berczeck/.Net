@@ -22,7 +22,7 @@ namespace Log4NetToRabbitMQ
             }
             catch (Exception ex)
             {
-                //log.Error(ex);
+                log.Error(ex);
             }
 
             Console.ReadLine();
