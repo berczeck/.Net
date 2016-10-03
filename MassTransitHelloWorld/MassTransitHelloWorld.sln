@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4NetToRabbitMQ", "Log4NetToRabbitMQ\Log4NetToRabbitMQ.csproj", "{96170340-5178-47C7-8650-24085D40841F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitHelloWorld", "MassTransitHelloWorld\MassTransitHelloWorld.csproj", "{8BDB24C2-74E9-4F8E-AC23-0A22FCCEBD09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{96170340-5178-47C7-8650-24085D40841F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96170340-5178-47C7-8650-24085D40841F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96170340-5178-47C7-8650-24085D40841F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96170340-5178-47C7-8650-24085D40841F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BDB24C2-74E9-4F8E-AC23-0A22FCCEBD09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDB24C2-74E9-4F8E-AC23-0A22FCCEBD09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDB24C2-74E9-4F8E-AC23-0A22FCCEBD09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDB24C2-74E9-4F8E-AC23-0A22FCCEBD09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

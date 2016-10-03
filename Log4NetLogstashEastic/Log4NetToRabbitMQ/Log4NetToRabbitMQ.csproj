@@ -55,6 +55,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomPatternConverter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -68,6 +69,7 @@
     <Content Include="LogstashConfigurationMultiLine - Copy.txt" />
     <Content Include="LogstashConfigurationMultiLine.txt" />
     <Content Include="LogstashConfigurationSingleLine.txt" />
+    <None Include="LogStashRabbit.conf" />
     <Content Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

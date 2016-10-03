@@ -9,6 +9,7 @@ namespace Log4NetToRabbitMQ
 
         static void Main(string[] args)
         {
+
             log.Debug("Log Debug");
             log.Info("Log Info");
             log.Warn("Log Warn");
@@ -21,7 +22,7 @@ namespace Log4NetToRabbitMQ
             catch (Exception ex)
             {
                 log.Error(ex);
-                log.Fatal(new OutOfMemoryException());
+                log.Fatal(ex);
             }
 
             Console.ReadLine();
